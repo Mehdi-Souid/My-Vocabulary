@@ -1,0 +1,35 @@
+/* Suggested Word Card container */
+.suggested-word-card {
+    border: 1px solid #4682B4; /* Steel blue border */
+    background-color: #ffffff; /* White background */
+    padding: 15px; /* Padding inside the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 10px;
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  .suggested-word-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  /* Title inside suggested word card */
+  .suggested-word-card h3 {
+    color: #0A3D62; /* Dark blue text */
+    margin-bottom: 10px; /* Space below title */
+  }
+  
+  /* Button for adding the suggested word */
+  .suggested-word-card button {
+    padding: 8px; /* Padding inside button */
+    background-color: #28A745; /* Green for add */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  /* Hover effect for add button */
+  .suggested-word-card button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

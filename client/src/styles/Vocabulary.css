@@ -1,0 +1,60 @@
+/* General container for the vocabulary page */
+.vocabulary-container {
+    display: flex;
+    background-color: #B0E0E6; /* Light blue background */
+    color: #0A3D62; /* Dark blue text */
+    padding: 20px;
+    min-height: 100vh; /* Ensure it takes at least full height of the viewport */
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 200px; /* Set width for sidebar */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons */
+    padding: 20px; /* Padding inside sidebar */
+    background-color: #F0F8FF; /* Lighter background for sidebar */
+    border-right: 1px solid #4682B4; /* Steel blue border */
+  }
+  
+  /* Title for the sidebar */
+  .sidebar h2 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Main content area */
+  .vocabulary-content {
+    flex: 1; /* Take remaining space */
+    padding: 20px; /* Padding for content */
+  }
+  
+  /* Title for the vocabulary section */
+  .vocabulary-content h2 {
+    margin: 0 0 20px; /* Space below title */
+  }
+  
+  /* Vocabulary cards container */
+  .vocabulary-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 40px; /* Space between cards */
+  }
+  
+  /* Suggested words section */
+  .suggested-words {
+    margin-top: 30px; /* Space from vocabulary cards */
+  }
+  
+  /* Title for suggested words section */
+  .suggested-words h2 {
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  /* Suggested words list container */
+  .suggested-words-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between suggested word cards */
+  }
+  

@@ -1,0 +1,69 @@
+.vocabulary-card {
+    border: 1px solid #4682B4; /* Steel blue border */
+    background-color: #ffffff; /* White background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Fixed width for the card */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .vocabulary-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Card header to position title and buttons */
+  .card-header {
+    display: flex;
+    justify-content: space-between; /* Space between title and buttons */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Title styles */
+  .card-title {
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Icon button styles */
+  .icon-button {
+    background: none; /* No background */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 20px; /* Increase icon size */
+    color: #1E90FF; /* Dodger blue color for icons */
+    transition: color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .icon-button:hover {
+    color: #0A3D62; /* Darker blue on hover */
+  }
+  
+  /* Definition and example styling */
+  .definition,
+  .example {
+    margin: 5px 0; /* Space around definition and example */
+    overflow-wrap: break-word; /* Allow breaking long words */
+  }
+  
+  /* Review buttons styling */
+  .review-buttons {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px; /* Space between buttons */
+    margin-top: 15px; /* Space above buttons */
+  }
+  
+  /* Styling for like and dislike buttons */
+  .review-buttons button {
+    background: none; /* No background */
+    border: none; /* No border */
+    font-size: 24px; /* Larger icon size */
+    cursor: pointer; /* Pointer cursor */
+    color: #1E90FF; /* Dodger blue color for icons */
+    transition: color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .review-buttons button:hover {
+    color: #0A3D62; /* Darker blue on hover */
+  }
+  

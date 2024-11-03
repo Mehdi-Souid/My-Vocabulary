@@ -1,0 +1,75 @@
+.add-word-container {
+    max-width: 500px; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9;
+}
+
+.add-word-container h2 {
+    text-align: center;
+    margin-bottom: 20px; 
+    color: #333;
+}
+
+.add-word-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+.add-word-form label {
+    display: block; 
+    margin: 10px 0 5px; 
+    color: #555; 
+}
+
+.add-word-form input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px;
+}
+
+.add-word-form button {
+    width: 100%; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.add-word-form button.generate-definition {
+    background-color: #007bff; 
+    color: white; 
+}
+
+.add-word-form button.submit {
+    background-color: #28A745; 
+    color: white; 
+}
+
+.add-word-form button.cancel {
+    background-color: #DC3545; 
+    color: white; 
+}
+
+.add-word-form button:hover {
+    opacity: 0.9; 
+}
+
+.add-word-form button.generate-definition:hover {
+    background-color: #0056b3; 
+}
+
+.add-word-form button.submit:hover {
+    background-color: #218838; 
+}
+
+.add-word-form button.cancel:hover {
+    background-color: #C82333; 
+}

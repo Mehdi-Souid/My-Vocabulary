@@ -1,0 +1,75 @@
+/* General Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #B0E0E6; /* Light Blue Background */
+  color: #0A3D62; /* Dark Blue Text */
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Set a consistent font here */
+}
+
+/* Greeting */
+.home-greeting {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1E90FF; /* Primary Blue */
+}
+
+/* Description */
+.home-description {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 20px;
+  color: #4682B4; /* Slightly Muted Blue */
+}
+
+/* Buttons */
+.home-buttons .btn,
+.game-container .btn-game {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-family: inherit; /* Inherit font from the home container */
+}
+
+/* Individual Button Styles */
+.home-buttons .signup-button {
+  background-color: #1E90FF;
+  color: #ffffff;
+}
+
+.home-buttons .signup-button:hover {
+  background-color: #0A3D62;
+  color: #ffffff;
+}
+
+.home-buttons .signin-button {
+  background-color: #87CEFA;
+  color: rgb(255, 255, 255);
+}
+
+.home-buttons .signin-button:hover {
+  background-color: #4682B4;
+}
+
+/* Game Button */
+.game-container .btn-game {
+  background-color: #4682B4; /* Medium Blue */
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.game-container .btn-game:hover {
+  background-color: #1E90FF; /* Bright Blue for Hover */
+}

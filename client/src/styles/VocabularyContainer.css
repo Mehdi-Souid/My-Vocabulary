@@ -1,0 +1,34 @@
+/* Container for vocabulary content */
+.vocabulary-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between sections */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  /* Title for the vocabulary section */
+  .vocabulary-title {
+    font-size: 24px; /* Larger font size for title */
+    color: #0A3D62; /* Dark blue text */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Vocabulary cards section */
+  .vocabulary-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 20px; /* Space between cards */
+  }
+  
+  /* Suggested words section */
+  .suggested-words {
+    margin-top: 30px; /* Space above suggested words section */
+  }
+  
+  /* Title for suggested words section */
+  .suggested-words-title {
+    font-size: 20px; /* Slightly smaller font size for sub-title */
+    color: #0A3D62; /* Dark blue text */
+    margin: 0; /* Remove default margin */
+  }
+  

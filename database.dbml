@@ -1,0 +1,23 @@
+// This database uses MongoDB, a NoSQL document-oriented database.
+// Collections: User, Vocabulary
+
+Project VocabularyBuilder {
+  database_type: "MongoDB"
+}
+
+// User collection
+Table User {
+  _id ObjectId [pk] // MongoDB automatically generates _id as the primary key.
+  username String [not null, unique] // Required and unique
+  password String [not null] // Required, unencrypted password
+}
+
+// Vocabulary collection
+Table Vocabulary {
+  _id ObjectId [pk] // MongoDB automatically generates _id as the primary key.
+  word String [not null] // Required vocabulary word
+  definition String [not null] // Required word definition
+  exampleSentence String // Optional example sentence for the word
+  userId ObjectId [not null, ref: > User._id] // Required reference to User collection's _id
+  reviewScore Int [default: 0] // Optional review score with a default of 0
+}
