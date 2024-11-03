@@ -19,7 +19,7 @@
   - `userId`: references User
   - `reviewScore`: default 0 (max 5)
 <div style="text-align: center;">
-    <img src="./vocab-builder/DocImages/My_Vocabulary.png" alt="Database Schema" />
+    <img src="./DocImages/My_Vocabulary.png" alt="Database Schema" />
 </div>
 
 ## Frontend Documentation
@@ -53,17 +53,17 @@ The `services` folder handles interactions with the backend API:
 The application utilizes two AI models for enhancing vocabulary management:
 
 1. **Sentence and Definition Generator**: This model retrieves definitions and example sentences for vocabulary words, providing context for each word. By integrating this model, users can gain a deeper understanding of each word's usage in sentences, which aids in retention and learning.
-  ![Definition Generator](./vocab-builder/DocImages/DefinitionGen.png)
+  ![Definition Generator](./DocImages/DefinitionGen.png)
 
 2. **Suggested Words Generator**: This model generates a list of suggested vocabulary words tailored to the user's existing vocabulary. It takes into account the user's current knowledge level, allowing for personalized suggestions that encourage language expansion. By analyzing the user's review scores and previously known words, this model helps users discover new words that are relevant and manageable.
-  ![Suggestion Generator](./vocab-builder/DocImages/SuggestedGen.png)
+  ![Suggestion Generator](./DocImages/SuggestedGen.png)
 
 This structured approach ensures a clean separation of concerns within the application, making it easier to maintain and scale.
 
 ## Backend Documentation
 The backend of the Vocabulary Builder application is built using Node.js and Express. It serves as the API layer for handling data requests between the frontend and the MongoDB database. The backend is responsible for user authentication, CRUD operations for vocabulary words, and integration with external APIs for word definitions.
 <div style="text-align: center;">
-    <img src="./vocab-builder/DocImages/napkin-selection.png" alt="Backend Schema" width="500"/>
+    <img src="./DocImages/napkin-selection.png" alt="Backend Schema" width="500"/>
 </div>
 
 ---
